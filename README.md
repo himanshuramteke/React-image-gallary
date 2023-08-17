@@ -1,8 +1,34 @@
-# React + Vite
+# React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a mini project that demonstrates how to create an image gallery using React, where users can view a set of images fetched from an API and click on them to see individual image details.
 
-Currently, two official plugins are available:
+## Requirements
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js and npm should be installed on your machine.
+
+## Installation
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/your-username/react-image-gallery.git
+
+cd react-image-gallery
+
+npm install
+
+npm run dev
+```
+
+## Features
+* The gallery displays the first 20 images fetched from the provided API.
+* Each image is displayed with a thumbnail and relevant details.
+* Clicking on a thumbnail redirects the user to a single image view with an enlarged image, title, and description.
+* React Router Dom is used to handle navigation between the gallery and single image view.
+* Error handling is implemented for cases where the server request fails or returns no images.
+
+## Technologies Used
+* React
+* React Router Dom
+* Fetch Api
+
