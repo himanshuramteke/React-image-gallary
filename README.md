@@ -27,7 +27,7 @@ npm run dev
 * React Router Dom is used to handle navigation between the gallery and single image view.
 * Error handling is implemented for cases where the server request fails or returns no images.
 
-## Technologies Used
+## Technologies USED
 * React
 * React Router Dom
 * Fetch Api
