@@ -1,4 +1,4 @@
-# React Image Gallery
+# React Image Gallary
 
 This is a mini project that demonstrates how to create an image gallery using React, where users can view a set of images fetched from an API and click on them to see individual image details.
 
